@@ -41,6 +41,12 @@ Future Promotion to Formal FHIR Resources:
 - Longitudinal patient timeline foundation
 - Initial organization/provider/facility relationships
 
+Claims Evolution Strategy:
+
+- Phase 1B: Single claims source
+- Phase 2: Add second claims source
+- Phase 3: Expand toward a multi-payer ecosystem
+
 ## Phase 1C - Native FHIR Ingestion
 
 - Synthea FHIR bundles
@@ -104,3 +110,16 @@ Target future state:
 Rationale:
 
 Claims data becomes increasingly important for population health, quality measurement, analytics, and financial use cases.
+
+### Claims Source Complexity Review
+
+FHIRBridge will start with a single claims feed and progressively evolve toward multiple payer sources.
+
+This allows the project to learn claims ingestion first, then expand into:
+
+- Cross-payer variation
+- Duplicate claims
+- Coverage differences
+- Cost analytics
+- Quality measurement
+- Population health use cases
