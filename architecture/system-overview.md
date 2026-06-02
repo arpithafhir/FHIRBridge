@@ -59,3 +59,20 @@ The project prioritizes:
 * debugging transparency
 * architecture documentation
 * enterprise systems thinking
+
+## Future Intelligence Platform Vision
+
+FHIRBridge is designed to evolve beyond healthcare interoperability into a healthcare intelligence platform.
+
+Future capabilities may include:
+
+- Clinical notes intelligence
+- Oncology intelligence
+- Voice intelligence
+- Patient journey intelligence
+- Operational intelligence
+- AI-assisted healthcare workflows
+
+See:
+
+- unstructured-intelligence-layer.md
