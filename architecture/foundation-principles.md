@@ -87,3 +87,19 @@ FHIRBridge should support multiple input patterns:
 - Future Synthea FHIR bundles
 
 These source formats can converge into a canonical FHIR model for downstream analytics, longitudinal patient records, AI-assisted workflows, and future applications.
+
+## Foundation Principle: Build Extensible Platform Capabilities
+
+FHIRBridge is designed as an extensible healthcare interoperability and intelligence platform, not a one-time demo project.
+
+Core platform capabilities should be reusable across future source systems, pipelines, databases, cloud architectures, terminology services, analytics models, AI tools, and healthcare domains.
+
+Architecture decisions should ask:
+
+- Are we building a reusable platform capability?
+- Can this support future data sources?
+- Can this support future FHIR resources?
+- Can this support future cloud, database, analytics, and AI extensions?
+- Are we avoiding hardcoded, one-off solutions?
+
+FHIRBridge should evolve by adding capabilities rather than creating separate disconnected projects.
