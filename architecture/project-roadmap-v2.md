@@ -62,6 +62,12 @@ Claims Evolution Strategy:
 
 ## Future Expansion Areas
 
+### FHIR R5 Learning Track
+- Compare selected R4 and R5 resources
+- Evaluate mature R5 capabilities where useful
+- Maintain separate R5 examples from the primary R4 implementation
+- Document version differences and migration considerations
+
 ### OMOP Integration
 - OMOP fundamentals
 - OMOP-to-FHIR mapping
@@ -123,3 +129,9 @@ This allows the project to learn claims ingestion first, then expand into:
 - Cost analytics
 - Quality measurement
 - Population health use cases
+
+FHIR Version Strategy:
+- Use FHIR R4 as the primary implementation baseline
+- Generate Phase 1A canonical Patient resources using FHIR R4
+- Keep FHIR R5 as a future learning and comparison track
+- Avoid mixing R4 and R5 resources in the same canonical store
