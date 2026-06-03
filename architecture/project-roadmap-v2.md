@@ -2,6 +2,10 @@
 
 ## Phase 1A - Patient, MPI & Provenance Foundation
 
+Official Design Reference:
+
+documentation/phase-1a-design.md
+
 Primary FHIR Resource:
 - Patient
 
